@@ -1,0 +1,133 @@
+
+
+@font-face {
+    font-family: header-font;
+    src: url(../fonts/header-font.ttf);
+}
+@font-face {
+    font-family: main-font3;
+    src: url(../fonts/main-font3.ttf);
+}
+@font-face {
+font-family: "yekan";
+src: url(../fonts/Yekan.eot);
+src: url(../fonts/Yekan.eot?#iefix) format("embedded-opentype"), url(../fonts/Yekan.woff)
+format("woff"), url(../fonts/Yekan.ttf) format("truetype"), url(../fonts/Yekan.svg#BYekan) format("svg");
+font-weight: normal;
+font-style: normal
+}
+@font-face {
+font-family: "gothic";
+src: url(../fonts/gothic.eot);
+src: url(../fonts/gothic.eot) format("embedded-opentype"), url(../fonts/gothic.woff)
+format("woff"), url(../fonts/gothic.ttf) format("truetype"), url(../fonts/gothic.svg) format("svg");
+
+}
+
+html{
+	/*border:1px solid black;*/
+	min-height:100%;
+	height:auto;
+	
+}
+
+body{
+	min-height:100vh;
+	height:auto;
+	
+ background: url(../images/contactus2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;	
+    background-size: cover;
+	
+	
+}
+
+body , html{
+	margin:0px;
+	padding:0px;
+}
+
+}
+.title {
+  margin-top: 20px;
+  padding: 10px;
+  text-shadow: 2px 2px #000;
+  color: #FFF;
+}
+
+
+#content{
+	margin:0px;
+	margin-top:0%;
+	width:65%;
+	min-height:80vh;
+	height:auto;
+	margin-left:2%;
+	margin-bottom:0%;
+}
+#content .row{
+	
+	
+}
+#map{
+	
+	height:250px;
+	padding:0px;
+}
+#contact-info{
+	margin-top:2%;
+}
+#contact-info p{
+font-size:11pt;
+
+color:#030d4c;
+font-weight:bold;
+
+}
+#contact-info p span{
+	color:#ef5c6a;
+	text-shadow:none;
+}
+#email{
+	width:50%;
+}
+#comment {
+	width:100%;
+	resize:none;
+}
+#contact-form{
+	margin:0px;
+	margin-left:0%;
+	margin-top:4px;
+}
+#form-container > div{
+
+
+}
+#copyright{
+	width:100%;
+   position:relative;
+   
+   top:0vh;
+   
+}
+@media only screen and (max-width: 400px) {
+	#content{
+		width:100%;
+	}
+	#contact-form{
+		width:100%;
+	}
+	#email{
+	width:100%;
+}
+#comment {
+	width:100%;
+	resize:none;
+}
+#contact-info {
+	width:100%;
+}
+}

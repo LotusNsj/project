@@ -1,0 +1,51 @@
+html{
+	/*border:1px solid black;*/
+	min-height:100%;
+	height:auto;
+	
+}
+
+body{
+	min-height:100vh;
+	height:auto;
+	
+ background: url(../images/about.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;	
+    -o-background-size: cover;	
+    background-size: cover;
+	
+	
+}
+
+body , html{
+	margin:0px;
+	padding:0px;
+}
+
+
+#content{
+	margin-top:1%;
+	min-height:75vh;
+	height:auto;
+	width:40%;
+	margin-left:0%;
+	
+}
+#content p{
+	line-height:20pt;
+	text-align:justify;
+	font-size:12pt;
+	color:black;
+	letter-spacing:1px;
+	font-weight:bold;
+}
+@media only screen and (max-width: 600px) {
+	#content p{
+		font-size:11pt;
+		
+	}
+	#content{
+		width:100%;
+	}
+}

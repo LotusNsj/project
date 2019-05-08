@@ -1,0 +1,56 @@
+	body{
+		font-family:"yekan" !important;
+		
+	}
+	#name , #main,#context {
+		direction:rtl;
+		
+	}
+	#main p,#content p{
+		text-align:justify;
+	}
+	#name{
+		text-align:right;
+		
+		
+	}
+	#contact-info {
+		text-align:right;
+		direction:rtl;
+		font-family:"yekan" !important;
+	}
+	.navbar-nav li a{
+		font-size:12pt;
+		
+	}
+	.navbar-right li a{
+	font-size:10pt;
+}
+	#email,#comment{
+		text-align:right !important;
+		font-family:"yekan" !important;
+		direction:rtl;
+	}
+	#contact-form{
+		direction:rtl;
+	}
+	#content p{
+		direction:rtl;
+		font-family:"yekan" !important;
+		text-align:right !important;
+		font-size:12pt !important;
+	}
+	#AboutModal .modal-content{
+	width:50vw;
+	margin:auto;
+	background: url(../images/products/ors/about.png) no-repeat bottom left #ffffff;
+   
+}
+#partner-context{
+	text-align:right;
+	direction:rtl;
+}
+#main-context,#AboutModal1,#DirModal,#WarModal{
+	text-align:right;
+	direction:rtl;
+}
